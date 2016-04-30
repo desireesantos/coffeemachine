@@ -1,0 +1,25 @@
+{
+  "name": "coffeemachine",
+  "version": "1.0.0",
+  "description": "Smart coffee machine for FISL17",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desireesantos/coffeemachine.git"
+  },
+  "keywords": [
+    "iot"
+  ],
+  "author": "Desiree Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desireesantos/coffeemachine/issues"
+  },
+  "homepage": "https://github.com/desireesantos/coffeemachine#readme"
+}
