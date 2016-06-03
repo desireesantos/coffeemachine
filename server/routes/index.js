@@ -2,20 +2,16 @@
 
 module.exports =
 [{
-    method: 'GET',
-    path: '/home',
-    handler: {
-        directory: {
-            path: '../../client/',
-            redirectToSlash: true,
-            index: true
-        }
+	method: 'GET',
+    path: '/',
+    handler: function (request, reply) {
+        reply.view('index');
     }
 },
 {
-    method: 'GET',
     path: '/api/{param*}',
+    method: 'GET',
     handler: {
         file: '../server/api/index.js'
-    }    
+    }
 }];
